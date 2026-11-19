@@ -86,6 +86,28 @@ The API test endpoint is:
 
 The Android device and backend must be able to communicate over the network.
 
+## Application Screenshots
+
+The following screenshots demonstrate the main features of the Android application.
+
+### Dashboard
+![Dashboard](screenshots/01-dashboard.png)
+
+### Member Registration
+![Member Registration](screenshots/02-member-registration.png)
+
+### Session Management
+![Session Management](screenshots/03-session-management.png)
+
+### Attendance
+![Attendance](screenshots/04-attendance.png)
+
+### Registered Members
+![Registered Members](screenshots/05-registered-members.png)
+
+### Add Jogging Session
+![Add Jogging Session](screenshots/06-add-jogging-session.png)
+
 ## Learning Objectives
 
 This project helped me practise:
