@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jogging Club Management"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#1E375A"
+            android:gravity="center"
+            android:padding="20dp"/>
+
+        <Button
+            android:id="@+id/btnManageSessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Sessions"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnMemberRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Member Registration"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnViewMembers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Registered Members"
+            android:layout_marginBottom="18dp"/>
+
+        <FrameLayout
+            android:id="@+id/dashboardFragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:id="@+id/textApiStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connecting to database..."
+            android:textSize="16sp"
+            android:textColor="#455A64"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upcoming Sessions"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1E375A"
+            android:paddingTop="18dp"
+            android:paddingBottom="12dp"/>
+
+        <GridLayout
+            android:id="@+id/layoutDashboardSessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:alignmentMode="alignMargins"
+            android:useDefaultMargins="true"/>
+
+    </LinearLayout>
+
+</ScrollView>

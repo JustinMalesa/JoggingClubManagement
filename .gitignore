@@ -1,0 +1,28 @@
+﻿# Private database credentials
+secrets.properties
+
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+dist/
+
+# Maven
+**/target/
+
+# VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
